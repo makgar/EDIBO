@@ -7,9 +7,9 @@ namespace Fibonacci_in_Csharp
         static void Main(string[] args)
         {
             uint n;
-            Console.WriteLine("Please note that I consider 0 to be F0!" + "\n" + "Which Fibonnaci sequence number do you wish to get the value for?");
+            Console.WriteLine("Please note that I consider 0 to be F0!" + Environment.NewLine + "Which Fibonnaci sequence number do you wish to get the value for?");
             while (!uint.TryParse(Console.ReadLine(), out n))
-                Console.WriteLine("Value that you have provided is not a positive integer. Please try again.\n" + "Which Fibonnaci sequence number do you wish to get the value for?");
+                Console.WriteLine(Environment.NewLine + "Value that you have provided is not a positive integer. Please try again." + Environment.NewLine + "Which Fibonnaci sequence number do you wish to get the value for?");
             
             uint number;
             switch(n)
@@ -32,8 +32,8 @@ namespace Fibonacci_in_Csharp
             {
                 F[i] = F[i - 2] + F[i - 1];
             }
-            Console.WriteLine("Fibonacci sequence number " + n + " equals:\n" + F[n]);
-            Console.WriteLine("The whole sequence up until element: " + n);
+            Console.WriteLine(Environment.NewLine + "Fibonacci sequence number " + n + " equals:" + Environment.NewLine + F[n] + Environment.NewLine);
+            Console.WriteLine("The whole sequence up until element " + n + " is:");
             for (uint i = 0; i <= n; i++)
             {
                 Console.Write(F[i] + " ");

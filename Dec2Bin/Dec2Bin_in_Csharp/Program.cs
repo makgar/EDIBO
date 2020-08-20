@@ -11,8 +11,8 @@ namespace Dec2Bin_in_Csharp
             uint decVal;
             Console.WriteLine("Enter a decimal value:");
             while (!uint.TryParse(Console.ReadLine(), out decVal))
-                Console.WriteLine("Value that you have provided is not a positive integer. Please try again.\n" + "Enter a decimal value you wish to convert to binary:");
-            Console.WriteLine("Decimal value " + decVal + " converted to binary equals:");
+                Console.WriteLine(Environment.NewLine + "Value that you have provided is not a positive integer. Please try again." + Environment.NewLine + "Enter a decimal value you wish to convert to binary:");
+            Console.WriteLine(Environment.NewLine + "Decimal value " + decVal + " converted to binary equals:");
             string binVal = Convert.ToString(decVal, 2);
             Console.WriteLine(binVal);
         }
