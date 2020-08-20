@@ -111,6 +111,4 @@ Additionally, consider installing **Windows Terminal**
 - Loops
 - Positioning systems (decimal, hexadecimal, binary)
 - UTF-8
-
-## Day 04
-### Topics
+- ...
