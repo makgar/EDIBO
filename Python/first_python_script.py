@@ -1,3 +1,5 @@
+#!/usr/bin/python3.6
+
 print(vars())
 a = 10
 print(vars())

@@ -1,3 +1,5 @@
+#!/usr/bin/python3.6
+
 class PartyAnimal:
    x = 0 #this will not show up in vars(object_name)
 

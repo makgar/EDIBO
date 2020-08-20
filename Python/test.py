@@ -1,3 +1,5 @@
+#!/usr/bin/python3.6
+
 word = "banana"
 count=0
 for letter in word:

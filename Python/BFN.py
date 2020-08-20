@@ -1,5 +1,6 @@
 #!/usr/bin/python3.6
 
+#a = int(input("Ievadiet skaitli: "))
 check = False
 while not check:
 #while (not check): #same
