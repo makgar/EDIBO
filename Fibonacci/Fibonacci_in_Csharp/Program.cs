@@ -9,8 +9,10 @@ namespace Fibonacci_in_Csharp
             uint n;
             Console.WriteLine("Please note that I consider 0 to be F0!" + Environment.NewLine + "Which Fibonnaci sequence number do you wish to get the value for?");
             while (!uint.TryParse(Console.ReadLine(), out n))
+            {
                 Console.WriteLine(Environment.NewLine + "Value that you have provided is not a positive integer. Please try again." + Environment.NewLine + "Which Fibonnaci sequence number do you wish to get the value for?");
-            
+            }
+
             uint number;
             switch(n)
             {
