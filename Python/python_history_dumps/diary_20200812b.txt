@@ -1,0 +1,25 @@
+# coding: utf-8
+if (11 == 11): print("Yes")
+if (11 == 11):
+    print("YES")
+    
+if (11 == 11):
+    
+    
+
+    
+    
+    print("Yes")
+if (11 == 11):
+  print("YES")
+    
+if (11 == 11):
+    print("YES")
+else
+if (11 == 12):
+    print("YES")
+else:
+    print("NO")
+    
+%save -r diary_20200812b.py
+%save -r diary_20200812b.py 1-9999

@@ -1,0 +1,76 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ll
+    4  git clone https://github.com/makgar/EDIBO
+    5  ls -l
+    6  cd EDIBO/
+    7  ll
+    8  nano git-upload.sh 
+    9  cd SHELL/
+   10  ll
+   11  nano from_dec_to_bin.sh 
+   12  cp from_dec_to_bin.sh Dec2Bin.sh
+   13  ll
+   14  ./Dec2Bin.sh 
+   15  git status
+   16  cd ..
+   17  ./git-upload.sh 
+   18  git status
+   19  nano README.md 
+   20  ./git-upload.sh 
+   21  cd SHELL/
+   22  nano f
+   23  nano from_dec_to_bin.sh 
+   24  ./from_dec_to_bin.sh 
+   25  nano from_dec_to_bin.sh 
+   26  ./from_dec_to_bin.sh 
+   27  nano from_dec_to_bin.sh 
+   28  ./from_dec_to_bin.sh 
+   29  ./from_dec_to_bin.sh 17 17
+   30  ./from_dec_to_bin.sh a 17
+   31  nano from_dec_to_bin.sh 
+   32  ./from_dec_to_bin.sh a 17
+   33  ./from_dec_to_bin.sh a
+   34  ./from_dec_to_bin.sh 17
+   35  ./from_dec_to_bin.sh
+   36  nano from_dec_to_bin.sh 
+   37  rm Dec2Bin.sh 
+   38  cp from_dec_to_bin.sh Dec2Bin.sh
+   39  cd ..
+   40  ./git-upload.sh 
+   41  cd SHELL/
+   42  nano from_dec_to_bin.sh 
+   43  ./from_dec_to_bin.sh a
+   44  ./from_dec_to_bin.sh 3 17
+   45  ./from_dec_to_bin.sh
+   46  nano from_dec_to_bin.sh 
+   47  ./from_dec_to_bin.sh 3 17
+   48  ./from_dec_to_bin.sh a
+   49  ./from_dec_to_bin.sh
+   50  rm Dec2Bin.sh 
+   51  cp from_dec_to_bin.sh Dec2Bin.sh
+   52  cd ..
+   53  git status
+   54  ./git-upload.sh 
+   55  git remote show origin
+   56  python
+   57  nano first_python_script.py
+   58  python first_python_script.py 
+   59  ipython
+   60  python --version
+   61  python -V
+   62  python3 --V
+   63  python3 -VV
+   64  nano first_python_script.py
+   65  python first_python_script.py 
+   66  cp first_python_script.py second_python_script.py 
+   67  ll
+   68  ls -lt
+   69  idle &
+   70  $!
+   71  echo $!
+   72  nano first_python_script.py 
+   73  cd ../terminal_history_dumps/
+   74  history
+   75  ll
+   76  history > history_20200812a.txt

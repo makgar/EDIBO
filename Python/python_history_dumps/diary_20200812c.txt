@@ -1,0 +1,58 @@
+ 2/1: vars()
+ 4/1: clear
+ 4/2: cat first_python_script.py
+ 4/3: a =11
+ 4/4: a
+ 4/5: b=5
+ 4/6: a+b
+ 4/7: a-b
+ 4/8: a*b
+ 4/9: a/b
+4/10: a%b
+4/11: q
+ 5/1: 2^5
+ 5/2: 2**5
+ 5/3: 2**10
+ 5/4: 2**100
+ 5/5: 2**1000
+ 5/6: q
+   1: if (11 == 11): print("Yes")
+   2:
+if (11 == 11):
+    print("YES")
+   3:
+if (11 == 11):
+    
+    
+
+    
+    
+    print("Yes")
+   4:
+if (11 == 11):
+  print("YES")
+   5:
+if (11 == 11):
+    print("YES")
+else
+   6:
+if (11 == 12):
+    print("YES")
+else:
+    print("NO")
+   7: %save -r diary_20200812b.py
+   8: %save -r diary_20200812b.py 1-9999
+   9: help %save
+  10: %save help
+  11: %save --help
+  12: --help
+  13: help
+  14: %history
+  15: ls
+  16: pwd
+  17: history -h
+  18: history --help
+  19: history
+  20: %history -g
+  21: %history -g -o
+  22: %history -g -o -f diary_20200812c.txt

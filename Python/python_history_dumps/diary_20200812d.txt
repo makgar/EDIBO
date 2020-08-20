@@ -1,0 +1,153 @@
+# coding: utf-8
+if (11 == 11): print("Yes")
+if (11 == 11):
+    print("YES")
+    
+if (11 == 11):
+    
+    
+
+    
+    
+    print("Yes")
+if (11 == 11):
+  print("YES")
+    
+if (11 == 11):
+    print("YES")
+else
+if (11 == 12):
+    print("YES")
+else:
+    print("NO")
+    
+%save -r diary_20200812b.py
+%save -r diary_20200812b.py 1-9999
+help %save
+%save help
+%save --help
+--help
+help
+%history
+ls
+pwd
+history -h
+history --help
+history
+%history -g
+%history -g -o
+%history -g -o -f diary_20200812c.txt
+if (12 > 11):
+    print("False")
+    c = 33
+    print(2**c)
+elif (-3 == 4):
+    print("True")
+else
+if (12 > 11):
+    print("False")
+    c = 33
+    print(2**c)
+elif (-3 == 4):
+    print("True")
+else:
+    print("Final")
+if (a > int(b)):
+    print("False")
+    c = 33
+    print(2**c)
+elif (-3 == 4):
+    print("True")
+else:
+    print("Final")
+a = 12
+a = 12
+if (a > int(b)):
+    print("False")
+    c = 33
+    print(2**c)
+elif (-3 == 4):
+    print("True")
+else:
+    print("Final")
+    
+b = 4
+if (a > int(b)):
+    print("False")
+    c = 33
+    print(2**c)
+elif (-3 == 4):
+    print("True")
+else:
+    print("Final")
+    
+type a
+type(a)
+type(int("55"))
+type("55")
+11 < 22
+11 <22
+11<22
+11< 22
+print(11<22)
+help(save)
+help(%save)
+help(len)
+for i in a: print(a)
+for i in "a": print(a)
+for i in "EDIBO": print(a)
+for i in "EDIBO": print(i)
+history
+history -g
+history -g -o
+%history -g -o
+%history -o
+for k in "EDIBO":
+    print(k)
+    
+for k in "EDIBO":
+    print(k)
+    print(k)
+    
+for k in "123":
+    print(k)
+    print(int(k)+1)
+    
+    
+for k in range(10):
+    print(k)
+    
+history -o
+for k in range(15,2):
+    print(k)
+    
+for k in range(3,15,2):
+    print(k)
+    
+for k in range(3,15):
+    print(k)
+    
+help(range)
+ll
+%history -o
+print("N=%d")%a
+print("N=%d"%a)
+type(a)
+type(N)
+b
+b="txt"
+b
+print("N = %d; S = %s"% (a,b))
+print("N = %d; S = %s"% (b,b))
+print("N = %d; S = %s"% (b,a))
+print("N = %d; S = %s"% (a,b))
+print("N = %d; S = %s" % (a,b))
+print(a)
+print("This is " a)
+print("This is a")
+print("This is %d" %a)
+print("This is %d" % a)
+print("%d%d" % (a,a))
+%history -r
+%save -r history_20200812d.txt
+%save -r history_20200812d.txt 1-99999

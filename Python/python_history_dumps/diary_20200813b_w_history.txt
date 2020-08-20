@@ -1,0 +1,200 @@
+   1: def f(): pass
+   2: f()
+   3: type(f)
+   4: def f(): print("Biba i Boba, dva zamechatelnih cheloveka")
+   5: f()
+   6: a=2
+   7: def f(): print("Biba i Boba, %d zamechatelnih cheloveka" % a)
+   8: f()
+   9:
+def g():
+    a = 22
+    print(a+3)
+  10: g()
+  11:
+def g(a):
+    print(a+3)
+  12: g()
+  13: g(a)
+  14: print(a)
+  15: del a
+  16: print(a)
+  17: g(a)
+  18: g("a")
+  19: g(22)
+  20: g(22, 12)
+  21:
+def g(a, b):
+    print(a+b)
+  22: g(22, 12)
+  23: a
+  24: b
+  25: c
+  26:
+def h():
+    c = a + b
+    print(c)
+  27: h()
+  28: h(1, 2)
+  29: h(a=1, b=2)
+  30:
+def h(a, b):
+    c = a + b
+    print(c)
+  31: h(1, 2)
+  32: h(a=1, b=2)
+  33: h(a=3, b=2)
+  34: print(a)
+  35: h(b=40,a=1)
+  36:
+def h(a=1, b=2):
+    c = a + b
+    print(c)
+  37: h()
+  38: h(3,4)
+  39:
+def h(a, b):
+    c = a + b
+    print(c)
+  40:
+def h2(a=1, b=2):
+    c = a + b
+    print(c)
+  41: h2
+  42: h2()
+  43: h2(12,13)
+  44: f()
+  45: f(2)
+  46: f()
+  47:
+def f2(a,b):
+    return(a+b)
+  48: f2(1,2)
+  49: h2(f2(1,2),f2(3,4))
+  50: type()
+  51: vars()
+  52: type(f2)
+  53: dir(f2)
+  54: dir()
+  55: type(quit)
+  56: vars(quit)
+  57: dir(quit)
+  58: vars()
+  59: dir()
+  60: s = "Monthy Python"
+  61: print(s[0:5])
+  62: str_slice = s[0:5]
+  63: print str_slice
+  64: print(str_slice)
+  65:
+def InsertionSort(A):
+    for j in range(1, len(A)):
+        key = A[j]
+        i = j - 1
+        while (i >=0) and (A[i] > key):
+            A[i+1] = A[i]
+            i = i - 1
+        A[i+1] = key
+  66: InsertionSort(1)
+  67: InsertionSort(1, 2, 3)
+  68: InsertionSort([1,2,3,4,5,6,7,8,9])
+  69:
+def InsertionSort(A):
+    for j in range(1, len(A)):
+        key = A[j]
+        i = j - 1
+        while (i >=0) and (A[i] > key):
+            A[i+1] = A[i]
+            i = i - 1
+        A[i+1] = key
+return A
+  70:
+def InsertionSort(A):
+    for j in range(1, len(A)):
+        key = A[j]
+        i = j - 1
+        while (i >=0) and (A[i] > key):
+            A[i+1] = A[i]
+            i = i - 1
+        A[i+1] = key
+return A
+  71:
+def InsertionSort(A):
+    for j in range(1, len(A)):
+        key = A[j]
+        i = j - 1
+        while (i >=0) and (A[i] > key):
+            A[i+1] = A[i]
+            i = i - 1
+        A[i+1] = key
+    return A
+  72: InsertionSort([1,2,3,4,5,6,7,8,9])
+  73: InsertionSort([1020, 11, 4, 78, 300])
+  74: f = open("README.md")
+  75: f.read
+  76: f.read()
+  77: type(f)
+  78: f.close()
+  79: f = open("README.md")
+  80: f.readlines(10)
+  81: f.readlines()
+  82: f.readlines(1-10)
+  83: f.readlines(1,10)
+  84: f.readlines()
+  85: f.close
+  86: f.close()
+  87: f = open("README.md")
+  88: f.readlines(1-10)
+  89: f.close()
+  90: f = open("README.md")
+  91: f.readlines(1-2)
+  92: f.close()
+  93: f = open("README.md")
+  94: s = f.readlines()
+  95: f.close
+  96: s
+  97: print(s)
+  98: f.close()
+  99: f = open("hello.dat")
+ 100: s = f.readlines()
+ 101: f.close()
+ 102: print(s+s)
+ 103: f = open("hello.dat")
+ 104: f.tell()
+ 105: f.readlines()
+ 106: f.tell()
+ 107: f.seek(1)
+ 108: f.tell()
+ 109: f.readlines()
+ 110: f.seek(0)
+ 111: f.tell()
+ 112: f.read()
+ 113: f.tell()
+ 114: f.seek(0)
+ 115: f.readline()
+ 116: f.tell()
+ 117: f.seek(0)
+ 118: f.seek(0)
+ 119: f.read()
+ 120: f.seek(0)
+ 121: f.readline()
+ 122: f.readline()
+ 123: f.seek(0)
+ 124: f.readlines()
+ 125: vars()
+ 126: dir()
+ 127: type(f)
+ 128: f.close()
+ 129: f = open("hello.dat","r")
+ 130: f.readlines()
+ 131: f.close()
+ 132: f = open("hello.dat","w")
+ 133: f.close()
+ 134: f = open("hello.dat","w")
+ 135: f.write("Hello")
+ 136: f.write("\n")
+ 137: f.write("Goodbye!\n")
+ 138: f.close
+ 139: f.close()
+ 140: f.close()
+ 141: %history -g -o -f diary_20200813b_w_history.py

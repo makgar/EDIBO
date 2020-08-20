@@ -1,0 +1,90 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls
+    5  mkdir
+    6  mkdir Dev
+    7  cd Dev
+    8  whereis ls
+    9  ls /bin/ls
+   10  ls -l /bin/ls
+   11  pwd
+   12  git clone https://www.github.com/makgar/EDIBO
+   13  ls -l /bin
+   14  ls -l /bin/ls
+   15  man whereis
+   16  ls -l
+   17  cd EDIBO/
+   18  cd ..
+   19  cd edibo
+   20  cd EDIBO/
+   21  ls -l
+   22  /home/user/Dev/EDIBO/README.md
+   23  man chmod
+   24  chmod --help
+   25  chmod 764 README.md 
+   26  ls -l
+   27  /home/user/Dev/EDIBO/README.md
+   28  cat /bin/ls
+   29  type ls
+   30  /bin/ls --color=auto
+   31  ls -l
+   32  chmod 644 README.md
+   33  ls -l
+   34  rm SAKAI 
+   35  ls
+   36  mk github_uploader.sh
+   37  make github_uplaoder.sh
+   38  ls
+   39  touch github_uploader.sh
+   40  ls
+   41  chmod 744 github_uploader.sh
+   42  ls
+   43  nano github_uploader.sh 
+   44  touch mans_pirmais_skripts.sh
+   45  nano mans_pirmais_skripts.sh 
+   46  chmod 644 mans_pirmais_skripts.sh 
+   47  ls -l
+   48  chmod 744 mans_pirmais_skripts.sh 
+   49  ls -l
+   50  mans_pirmais_skripts.sh 
+   51  /mans_pirmais_skripts.sh 
+   52  . mans_pirmais_skripts.sh 
+   53  cd ..
+   54  ls -l
+   55  cd DEF
+   56  ls
+   57  cat b.txt
+   58  cd..
+   59  cd ..
+   60  echo $PATH
+   61  PATH=$PATH:./
+   62  echo $PATH
+   63  mans_pirmais_skripts.sh 
+   64  cd ..
+   65  PATH=$PATH:~/EDIBO
+   66  echo $PATH
+   67  mans_pirmais_skripts.sh 
+   68  PATH=$PATH:/home/user
+   69  echo $PATH
+   70  PATH=/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.dotnet/tools:./
+   71  echo $PATH
+   72  PATH=$PATH:~/EDIBO/Dev
+   73  echo $PATH
+   74  ls
+   75  cd EDIBO
+   76  ls
+   77  PATH=/opt/intelFPGA_lite/17.1/quartus/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/user/.dotnet/tools:./
+   78  PATH=$PATH:~/Dev/EDIBO
+   79  cd ../..
+   80  ls
+   81  mans_pirmais_skripts.sh 
+   82  ls
+   83  rmdir ABC
+   84  rm -rf ABC
+   85  rm -rf DEF
+   86  ls
+   87  cd Dev
+   88  cd EDIBO/
+   89  ll
+   90  history > history_20200807c.txt

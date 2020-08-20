@@ -1,0 +1,146 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  history
+    4  cd SHELL/
+    5  cd /home/user/Documents
+    6  cd -
+    7  nano test.sh
+    8  chmod 744 test.sh 
+    9  ls -l
+   10  . test.sh 
+   11  mv test.sh test_01_accessing_values.sh
+   12  nano test_02_read-only_variables.sh
+   13  chmod test_02_read-only_variables.sh 
+   14  chmod 744 test_02_read-only_variables.sh 
+   15  ./test_02_read-only_variables.sh 
+   16  nano test_03_unsetting_variables.sh
+   17  chmod test_03_unsetting_variables.sh 
+   18  chmod 744 test_03_unsetting_variables.sh 
+   19  ./test_03
+   20  ./test_03_unsetting_variables.sh \
+   21  ./test_03_unsetting_variables.sh
+   22  nano test_01_accessing_values.sh 
+   23  nano test_02_read-only_variables.sh 
+   24  nano test_03_unsetting_variables.sh 
+   25  nano test_01_accessing_values.sh 
+   26  nano test_02_read-only_variables.sh 
+   27  nano test_03_unsetting_variables.sh 
+   28  ./test_03_unsetting_variables.sh
+   29  echo $$
+   30  nano some_stuff.sh
+   31  ./some_stuff.sh
+   32  chmod 744 some_stuff.sh 
+   33  ./some_stuff.sh
+   34  nano some_stuff.sh
+   35  ./some_stuff.sh
+   36  nano test_04_special_vars_relatedt_to_command_line.sh
+   37  chmod 744 test_04_special_vars_relatedt_to_command_line.sh 
+   38  ./test_04_special_vars_relatedt_to_command_line.sh
+   39  ./test_04_special_vars_relatedt_to_command_line.sh Zara Ali
+   40  mv test_04_special_vars_relatedt_to_command_line.sh test_04_special_vars_related_to_command_line.sh 
+   41  nano test_05_special_parameters.sh
+   42  chmod 744 test_05_special_parameters.sh 
+   43  ./test_05_special_parameters.sh 
+   44  ./test_05_special_parameters.sh Zara Ali 10 Years Old
+   45  nano test_05_special_parameters.sh
+   46  ./test_05_special_parameters.sh Zara Ali 10 Years Old
+   47  nano test_05_special_parameters.sh
+   48  echo $?
+   49  ./test_05_special_parameters.sh "Zara Ali 10 Years Old"
+   50  nano test_06_defining_and_accessing_array_values.sh
+   51  chmod 744 test_06_defining_and_accessing_array_values.sh 
+   52  ./ test_06_defining_and_accessing_array_values.sh
+   53  ./test_06_defining_and_accessing_array_values.sh
+   54  nano test_06_defining_and_accessing_array_values.sh
+   55  nano test_07_accessing_all_array_items.sh
+   56  chmod test_07_accessing_all_array_items.sh 
+   57  chmod 744 test_07_accessing_all_array_items.sh 
+   58  ./test_07_accessing_all_array_items.sh 
+   59  nano test_04_special_vars_related_to_command_line.sh 
+   60  nano test_05_special_parameters.sh 
+   61  ./test_05_special_parameters.sh 
+   62  ./test_05_special_parameters.sh asd asd
+   63  ./test_05_special_parameters.sh "asd asd"
+   64  ./test_05_special_parameters.sh "qwerty asd zxc"
+   65  nano test_05_special_parameters.sh 
+   66  ./test_05_special_parameters.sh "qwerty asd zxc"
+   67  ./test_05_special_parameters.sh "qwerty" "asd" "zxc"
+   68  ./test_05_special_parameters.sh "qwerty asd zxc"
+   69  ./test_05_special_parameters.sh asd asd
+   70  ./test_05_special_parameters.sh "asd asd"
+   71  ls -l
+   72  nano test_07
+   73  rm test_07
+   74  ls -l
+   75  rm test_07_accessing_all_array_items.sh 
+   76  git status
+   77  git remote show origin
+   78  ls -l
+   79  git remote show origin
+   80  ./test_07_accessing_all_array_items.sh 
+   81  nano test_05_special_parameters.sh 
+   82  ls -l
+   83  nano test_08_addition_in_bourne.sh
+   84  chmod 744 test_08_addition_in_bourne.sh 
+   85  ./test_08_addition_in_bourne.sh 
+   86  cp test_08_addition_in_bourne.sh test_09_addition_in_bash.sh 
+   87  ls -l
+   88  nano test_09_addition_in_bash.sh 
+   89  ./test_09_addition_in_bash.sh 
+   90  nano test_08_addition_in_bourne.sh
+   91  ./test_08_addition_in_bourne.sh 
+   92  nano test_08_addition_in_bourne.sh
+   93  nano test_09_addition_in_bash.sh 
+   94  rm test_09_addition_in_bash.sh 
+   95  nano test_05
+   96  nano test_05_special_parameters.sh 
+   97  mv test_06_defining_and_accessing_array_values.sh test_07_defining_and_accessing_array_values.sh 
+   98  mv test_08_addition_in_bourne.sh test_09_addition_in_bourne.sh
+   99  mv test_07_accessing_all_array_items.sh test_08_accessing_all_array_items.sh 
+  100  ls -l
+  101  nano test_06_difference_in_2_special_params.sh
+  102  chmod 744 test_06_difference_in_2_special_params.sh 
+  103  ./test_06_difference_in_2_special_params.sh 1  2 "3  4"
+  104  ls
+  105  nano test_10_nesting_while_loops.sh
+  106  chmod 744 test_10_nesting_while_loops.sh 
+  107  ./test_10_nesting_while_loops.sh 
+  108  nano from_dec_to_bin.sh
+  109  ls
+  110  touch from_dec_to_bin.sh
+  111  chmod 744 from_dec_to_bin.sh 
+  112  nano from_dec_to_bin.sh 
+  113  ./from_dec_to_bin.sh 
+  114  ./from_dec_to_bin.sh 2 3
+  115  nano from_dec_to_bin.sh 
+  116  ./from_dec_to_bin.sh 2 3
+  117  ./from_dec_to_bin.sh 
+  118  nano from_dec_to_bin.sh 
+  119  ./from_dec_to_bin.sh 
+  120  nano from_dec_to_bin.sh 
+  121  ./from_dec_to_bin.sh 
+  122  ./from_dec_to_bin.sh 1 2
+  123  ./from_dec_to_bin.sh 1
+  124  ./from_dec_to_bin.sh b
+  125  nano from_dec_to_bin.sh 
+  126  ./from_dec_to_bin.sh b
+  127  ./from_dec_to_bin.sh 2
+  128  nano from_dec_to_bin.sh 
+  129  ./from_dec_to_bin.sh 2
+  130  nano from_dec_to_bin.sh 
+  131  ./from_dec_to_bin.sh 2
+  132  nano from_dec_to_bin.sh 
+  133  ./from_dec_to_bin.sh 2
+  134  nano from_dec_to_bin.sh 
+  135  cat from_dec_to_bin.sh 
+  136  nano from_dec_to_bin.sh 
+  137  ./from_dec_to_bin.sh 2
+  138  nano from_dec_to_bin.sh 
+  139  ./from_dec_to_bin.sh 2
+  140  nano from_dec_to_bin.sh 
+  141  history
+  142  cd ..
+  143  ls
+  144  cd terminal_history_dumps/
+  145  ls
+  146  history > history_20200811a.txt

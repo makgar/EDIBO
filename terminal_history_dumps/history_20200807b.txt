@@ -1,0 +1,61 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ll
+    4  ls
+    5  ls -l
+    6  type ls
+    7  --help
+    8  echo $0
+    9  man sh
+   10  sh
+   11  man whoami
+   12  man who
+   13  last
+   14  man last
+   15  man ~
+   16  man tree
+   17  tree
+   18  firefox $
+   19  firefox$
+   20  firefox
+   21  firefox &
+   22  jobs
+   23  disown
+   24  man jobs
+   25  jobs --help
+   26  man disown
+   27  disown --help
+   28  man echo
+   29  ls
+   30  pwd
+   31  mkdir dev
+   32  cd dve
+   33  cd dev
+   34  git clone https://github.com/makgar/EDIBO
+   35  ls
+   36  cd e
+   37  cd EDIBO/
+   38  ls
+   39  ls -lt
+   40  ll
+   41  la
+   42  ls -t
+   43  ls -lta
+   44  cat README.md 
+   45  hexdump -C README.md 
+   46  man hexdump 
+   47  hexdump --HELP
+   48  man hexdump 
+   49  nano README.md 
+   50  history 
+   51  history > history_20200807a.txt
+   52  ls -l
+   53  cat history_20200807a.txt 
+   54  nano history_20200807a.txt 
+   55  pwd
+   56  ls -la
+   58  git add .
+   59  git commit -m "20200807_13_30_first_upload_from_cli"
+   60  git push origin master
+   61* history > 
+   62  history > history_20200807b.txt

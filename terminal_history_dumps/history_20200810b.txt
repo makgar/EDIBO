@@ -1,0 +1,155 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ll
+    4  ls - l
+    5  ls -l
+    6  mkdir makgar
+    7  cd makgar/
+    8  git clone https://github.com/makgar/EDIBO.git
+    9  git --help
+   10  git diff
+   11  git help -a
+   12  pwd
+   13  cd EDIBO/
+   14  pwd
+   15  ll
+   16  mkdir terminal_history_dumps
+   17  cd terminal_history_dumps/
+   18  cd ..
+   19  mv history_20200807a.txt terminal_history_dumps/
+   20  ls -l
+   21  mv history_20200807b.txt terminal_history_dumps/
+   22  mv history_20200807c.txt terminal_history_dumps/
+   23  mv history_20200810a.txt terminal_history_dumps/
+   24  ls -l
+   25  cd terminal_history_dumps/
+   26  ll
+   27  cd ..
+   28  git statis
+   29  git status
+   30  git diff
+   31  . git-upload.sh 
+   32  git status -uno
+   33  git fetch --dry-run
+   34  git remote show origin
+   35  git remote show origin --help
+   36  git remote show master
+   37  git remote show origin
+   38  git remote -hhelp
+   39  git remote -help
+   40  git remote --help
+   41  git remote show --help
+   42  man git
+   43  git remote show
+   44  git remote show origin 
+   45  echo 'pwd'
+   46  echo `pwd`
+   47  echo $(pwd)
+   48  git add --help
+   49  printenv
+   50  printenv | less
+   51  printenv
+   52  clear
+   53  printenv
+   54  echo $HOME
+   55  cd echo $HOME
+   56  cd `echo $HOME`
+   57  pwd
+   58  cd -
+   59  git push --help
+   60  printenv | less
+   61  man printafm 
+   62  printenv | count
+   63  man seq
+   64  N="11 22 77 45"
+   65  for i in $N; do echo $((i*5)); done
+   66  for i in `seq 1 5`; do echo $i; done
+   67  for i in $(seq 1 5); do echo $i; done
+   68  for i in $(seq 1 5); do echo $((i*i)); done
+   69  for i in $(seq 1 10); do echo $((i*i)); done
+   70  for i in $(seq 1 10); do echo "i square = $((i*i))"; done
+   71  for i in $(seq 1 10); do echo "$i square = $((i*i))"; done
+   72  for i in $(seq 1 10); do echo "$i squared = $((i*i))"; done
+   73  man echo
+   74  for i in $(seq 1 10); do echo -e "$i \t squared = $((i*i))"; done
+   75  for i in $(seq 1 10); do echo -e "$i squared \t = $((i*i))"; done
+   76  for i in $(seq 1 10); do echo -e "$i squared\t= $((i*i))"; done
+   77  git remote show origin
+   78  git pull
+   79  git remote show origin
+   80  echo -e "tab\ttab"
+   81  echo -e --help
+   82  echo --help
+   83  man echo
+   84  git remote show origin
+   85  git pull
+   86  git remote show origin
+   87  for i in $(seq 1 100); do echo -e "$i squared\t= $((i*i))"; done > a.dat; head a.dat
+   88  ls -l
+   89  cat a.dat
+   90  less a.dat
+   91  more a.dat
+   92  cat a.dat
+   93  cat tail.dat
+   94  tail a.dat
+   95  time for i in $(seq 1 1001); do echo -e "$i squared\t= $((i*i))"; done
+   96  git remote show origin
+   97  man grep
+   98  ls -l | grep a.dat
+   99  chmod 000 a.dat 
+  100  ls -l | grep a.dat
+  101  chmod 644 a.dat 
+  102  ls -l | grep a.dat
+  103  head -2 a.dat
+  104  more a.dat
+  105  less a.dat
+  106  git remote origin
+  107  git remote show origin
+  108  ls | for i in eof; echo $i; done
+  109  for i in `ls`; echo $i; done
+  110  for i in `ls`; do echo $i; done
+  111  ls | for i in eof; do echo $i; done
+  112  for i in `ls`; do echo $i; done > b.dat
+  113  for i in `cat b.dat`; do echo $i; done
+  114  ls -l | grep .dat
+  115  ls -l | grep *.dat
+  116  ls -l | grep ?.dat
+  117  ls -l | grep dat
+  118  man wc
+  119  cat b.dat | wc -l
+  120  man egrep
+  121  cat b.dat 
+  122  git remote show origin
+  123  head 3 a.dat
+  124  head -3 a.dat
+  125  head -3 a.dat > c.dat
+  126  ls -l c.dat
+  127  for i in $(seq 1 4); do echo -e "$i $((i*i))"; done > d.dat
+  128  ls -l d.dat
+  129  cat d.dat | wc -l
+  130  for i in $(seq 1 2); do echo -e "$i $((i*i))"; done > d.dat
+  131  ls -l d.dat
+  132  cat d.dat | wc -l
+  133  hexdump d.dat
+  134  git remote show origin
+  135  hexdump -C d.dat 
+  136  hexdump d.dat
+  137  man hexdump 
+  138  git remote show origin
+  139  git pull
+  140  man math
+  141  for i in 1; do echo "$i $((i*i))"; done | hexdump
+  142  git remote show origin
+  143  echo 10 | hexdump
+  144  echo A | hexdump
+  145  echo a | hexdump
+  146  git remote show origin
+  147  ll
+  148  nano README.md 
+  149  git status
+  150  git remote show origin
+  151  nano README.md 
+  152  man cp
+  153  cd terminal_history_dumps/
+  154  ll
+  155  history > history_20200810b.txt

@@ -1,0 +1,58 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ll
+    5  ls -l
+    6  clear
+    7  pwd
+    8  mkdir makgar
+    9  ls -l
+   10  cd makgar/
+   11  git clone git@github.com:makgar/EDIBO.git
+   12  git clone https://github.com/makgar/EDIBO.git
+   13  ls -l
+   14  cd EDIBO/
+   15  pwd
+   16  ls l
+   17  ls -l
+   18  cd makgar/
+   19  cd EDIBO/
+   20  ll
+   21  VirtualBox 
+   22  ll
+   23  git statsu
+   24  git status
+   25  cal 2020
+   26  cal 20
+   27  cal 1
+   28  man cal
+   29  date
+   30  man cal
+   31  man time
+   32  man cat
+   33  man w
+   34  man more
+   35  w
+   36  man s
+   37  man os
+   38  man ps
+   39  ps
+   40  ps a
+   41  ps
+   42  man ps
+   43  ps a
+   44  w
+   45  man w
+   46  w
+   47  ps a
+   48  kill 3302
+   49  ps a
+   50  ps
+   51  ps a
+   52  kill 3347
+   53  git status
+   54  pwd
+   55  git status
+   56  git pull
+   57  ll
+   58  history > history_20200810a.txt

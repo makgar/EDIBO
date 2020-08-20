@@ -1,0 +1,11 @@
+h1 {
+    color: rebeccapurple;
+}
+
+ul#css_ways {
+    color: green;
+}
+
+ul#css_ways #external_css {
+    color: green;
+}

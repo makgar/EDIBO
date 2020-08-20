@@ -1,0 +1,9 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  disown
+    5  for i in $(ls | grep diary); do echo $i; done
+    6  for i in $(ls | grep diary); do $(mv $i python_history_dumps); done
+    7  ls -l
+    8  ls -l python_history_dumps/
+    9  history > /home/user/makgar/EDIBO/terminal_history_dumps/history_20200814a.txt

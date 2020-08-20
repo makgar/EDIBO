@@ -1,0 +1,51 @@
+  538  wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+  539  sudo dpkg -i packages-microsoft-prod.deb
+  540  sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-3.1
+  541  dotnet
+  542  dotnet --help
+  543  pwd
+  544  cd Documents/
+  545  cd EDIBO_stuff/EDIBO/
+  553  mkdir dotnet
+  554  cd dotnet/
+  555* dotnet new console -o MyFirstConsoleApp
+  556  ls -l
+  557  cd MyFirstConsoleApp/
+  558  cd ..
+  559  tree MyFirstConsoleApp/
+  560  sudo apt-get update
+  561  sudo apt  install tree
+  562  tree MyFirstConsoleApp/
+  563  code . &
+  564  cd MyFirstConsoleApp/
+  565  ls -l
+  566  dotnet run
+  567  dotnet build
+  568  dotnet run
+  569  whereis snapd
+  570  dotnet --version
+  571  history
+  572  ls -l
+  573  cd ..
+  574  ls -l
+  575  pwd
+  576  touch README.md
+  577  cd ..
+  578  code . &
+  579  snapd --version
+  580  snap --version
+  581  ls -l
+  582  mv to-do.txt tasks.md
+  583  git status
+  584  ./git-upload.sh 
+  585  git status
+  586  ./git-upload.sh 
+  587  tree .
+  588  less tasks.md 
+  589  history
+  590  cd dotnet/
+  591  ls -l
+  592  tree ..
+  593  mkdir terminal_history_dumps
+  594  cd terminal_history_dumps/
+  595  history >  history_20200820a.txt
