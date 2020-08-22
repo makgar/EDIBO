@@ -5,17 +5,14 @@
 ## Python
 - Fibonacci
 - GCD
-- Bubble sort
+
+## C#
+- GCD
 
 ## Web
 - Snowman (CSS)
 - home page
 - "game"
-
-## C#
-- dec 2 bin
-- GCD
-- Pascal triangle
 
 
 
@@ -26,6 +23,9 @@
 
 ## Python
 - dec 2 bin
+- Bubble sort
 
 ## C#
+- dec 2 bin
 - Fibonacci
+- Pascal's triangle
