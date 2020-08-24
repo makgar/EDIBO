@@ -1,33 +1,48 @@
+# DONE
+## Bubble sort
+[https://github.com/makgar/Bubble_Sort](https://github.com/makgar/Bubble_Sort)  
+- Python
+
+## dec 2 bin
+[https://github.com/makgar/D2B](https://github.com/makgar/D2B)  
+- Bash
+- C#
+- Python
+
+## Fibonnaci
+[https://github.com/makgar/Fibonacci_Numbers](https://github.com/makgar/Fibonacci_Numbers)  
+- Bash
+- C#
+
+## GCD
+[https://github.com/makgar/GCD](https://github.com/makgar/GCD)  
+- Python
+
+## Pascal's triangle
+[https://github.com/makgar/Pascals_Triangle](https://github.com/makgar/Pascals_Triangle)  
+- C#
+
+
+
 # TO-DO
-## Bash
-- GCD
-- Pascal's triangle
+## Bubble sort
+- complete
 
-## Python
-- Fibonacci
-- Pascal's triangle
+## dec 2 bin
+- complete
 
-## C#
-- GCD
+## Fibonnaci
+- Python
+
+## GCD
+- Bash
+- c#
+
+## Pascal's triangle
+- Bash
+- Python
 
 ## Web
 - Snowman (CSS)
 - home page
 - "game"
-
-
-
-# DONE
-## Bash
-- dec 2 bin
-- Fibonacci
-
-## Python
-- Bubble sort
-- dec 2 bin
-- GCD
-
-## C#
-- dec 2 bin
-- Fibonacci
-- Pascal's triangle
