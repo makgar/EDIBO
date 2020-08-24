@@ -1,14 +1,14 @@
 # EDIBO
 EDIBO projekta elektroniskā klade
 
-[teleci.lv](http://teleci.lv/) > SAKAI 2019 - site where we will communicate  
+[teleci.lv](http://teleci.lv/) > SAKAI 2019 - place where we communicate  
 [Tatjana's Repository](https://github.com/tatusmatrix/EDIBO)  
 
 For my own convenience [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) on GitHub  
 
 ## General information
 We're working with Linux (Ubuntu v18.04)  
-[Installing VisualStudioCde on Linux](https://code.visualstudio.com/docs/setup/linux)  
+[Installing Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)  
 [Installing snap, if missing](https://snapcraft.io/docs/installing-snap-on-ubuntu)  
 
 ### Virtualization

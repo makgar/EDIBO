@@ -1,10 +1,11 @@
 # TO-DO
 ## Bash
 - GCD
+- Pascal's triangle
 
 ## Python
 - Fibonacci
-- GCD
+- Pascal's triangle
 
 ## C#
 - GCD
@@ -22,8 +23,9 @@
 - Fibonacci
 
 ## Python
-- dec 2 bin
 - Bubble sort
+- dec 2 bin
+- GCD
 
 ## C#
 - dec 2 bin
