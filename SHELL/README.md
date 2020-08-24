@@ -53,3 +53,7 @@ Unix / Linux - Shell Input/Output Redirections
 Unix / Linux - Shell Functions  
 Unix / Linux - Shell Manpage Help  
 *  
+
+## Some manipulations
+[Find only unique named files recursively](https://superuser.com/questions/1058859/find-only-unique-named-files-recursively)  
+[Bash compare two lists find missing items](https://unix.stackexchange.com/questions/552712/bash-compare-two-lists-find-missing-items)  
