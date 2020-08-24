@@ -36,7 +36,7 @@
 
 ## GCD
 - Bash
-- c#
+- C#
 
 ## Pascal's triangle
 - Bash
