@@ -1,0 +1,64 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  curl https://myfakeapi.com/api/cars
+    4  curl https://myfakeapi.com/api/cars/ford
+    5  curl https://myfakeapi.com/api/ford
+    6  curl https://myfakeapi.com/api/cars/:1
+    7  curl https://myfakeapi.com/api/cars/:id
+    8  curl https://myfakeapi.com/api/cars/1
+    9  curl https://myfakeapi.com/api/cars/Ford
+   10  ipconfig
+   11  ip
+   12  ifconfig 
+   13  ip 
+   14  ip curl https://myfakeapi.com/api/cars
+   15  curl https://myfakeapi.com/api/cars
+   16  cd ../..
+   17  ll
+   18  git status
+   19  ll
+   20  mkdir temp
+   21  ll
+   22  history
+   23  dotnet --version
+   24  cd ..
+   25  ll
+   26  cd EDIBO/
+   27  git status
+   28  cd dotnet/
+   29  ll
+   30  dotnet new
+   31  dotnet new webapi -o MyFirstWebApi
+   32  ll
+   33  dotnet new webapi -o MyFirstWebAPI
+   34  ll
+   35  rm -rf MyFirstWebApi/
+   36  ll
+   37  cd MyFirstWebAPI/
+   38  tree .
+   39  tree
+   40  curl http://localhost:5000/weatherforecast
+   41  time
+   42  time | curl http://localhost:5000/weatherforecast
+   43  curl http://localhost:5000/weatherforecast | time
+   44  curl http://localhost:5000/weatherforecast
+   45* 
+   46  time curl http://localhost:5000/weatherforecast
+   47  ifconfig
+   48  time curl http://10.152.17.115/weatherforecast
+   49  time curl http://localhost:5000/weatherforecast
+   50  ifconfig
+   51  time curl http://10.152.17.115:5000/weatherforecast
+   52  curl http://10.152.17.115
+   53  time curl http://10.152.17.115:5000/weatherforecast
+   54  time curl http://localhost:5000/weatherforecast
+   55  curl http://10.152.17.115
+   56  curl http://10.152.17.115:5000
+   57  curl http://10.152.17.115:5000/weatherforecast
+   58  time curl http://10.152.17.115:5000/weatherforecast
+   59  time curl http://10.152.16.200:5000/weatherforecast
+   60  time curl http://10.152.16.200:5000/weatherforecast > ../../REST_API/test.dat
+   61  wc -l ../../REST_API/test.dat 
+   62  wc ../../REST_API/test.dat 
+   63  history
+   64  history > ../terminal_history_dumps/history_20200826a.txt

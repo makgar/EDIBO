@@ -1,0 +1,37 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  curl https://myfakeapi.com/api/cars/1
+    4  curl https://myfakeapi.com/api/cars/1 | json_pp
+    5  curl https://myfakeapi.com/api/cars/allcars/ford | json_pp
+    6  curl https://myfakeapi.com/api/cars/allcars/Ford
+    7  curl https://myfakeapi.com/api/cars/allcars/Jaguar
+    8  curl https://fake-api.com/api/cars/allcars/Jaguar
+    9  curl https://fake-api.com/api/cars/allcars/Jaguar | json_pp
+   10  curl https://fake-api.com/api/cars/allcars/Jaguar | grep Dload > Jaguar.dat
+   11  wc Jaguar.dat 
+   12  curl https://fake-api.com/api/cars/allcars/Jaguar
+   13  curl https://fake-api.com/api/cars/allcars/Jaguar > Jaguar.dat
+   14  wc Jaguar.dat 
+   15  history > REST_API/terminal_history_dumps/history_20200826a.txt
+   16  cd REST_API/
+   17  route
+   18  ip
+   19  ifconfig 
+   20  route -n
+   21  ping 127.0.0.1
+   22  ping 10.152.17.1
+   23  ping google.com
+   24  ping github.com
+   25  nslookup
+   26  ping 127.0.0.
+   27  ping 127.0.0.1
+   28  python3 -m http.server
+   29  cd ../HTML_CSS_JavaScript/random/
+   30  python3 -m http.server
+   31  cd ../dark_clock/
+   32  python3 -m http.server
+   33  cd ../random/
+   34  python3 -m http.server
+   35  cd ../dark_clock/
+   36  python3 -m http.server
+   37  history > ../../REST_API/terminal_history_dumps/history_20200826b.txt

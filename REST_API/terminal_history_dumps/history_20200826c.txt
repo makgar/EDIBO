@@ -1,0 +1,28 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  curl https://myfakeapi.com/api/cars
+    4  curl https://myfakeapi.com/api/cars/ford
+    5  curl https://myfakeapi.com/api/ford
+    6  curl https://myfakeapi.com/api/cars/:1
+    7  curl https://myfakeapi.com/api/cars/:id
+    8  curl https://myfakeapi.com/api/cars/1
+    9  curl https://myfakeapi.com/api/cars/Ford
+   10  ipconfig
+   11  ip
+   12  ifconfig 
+   13  ip 
+   14  ip curl https://myfakeapi.com/api/cars
+   15  curl https://myfakeapi.com/api/cars
+   16  curl 127.0.0.1:8000
+   17  curl http://127.0.0.1:8000
+   18  curl http://0.0.0.0:8000
+   19  curl http://127.0.0.1:8000
+   20  ifconfig
+   21  ping 10.152.16.148
+   22  curl 10.152.16.148:8000
+   23  curl 10.152.16.152:8000
+   24  curl 10.152.16.151:8000
+   25  curl http://127.0.0.1:8000
+   26  ifconfig
+   27  curl 10.152.16.164:8000
+   28  history > ../../REST_API/terminal_history_dumps/history_20200826c.txt
