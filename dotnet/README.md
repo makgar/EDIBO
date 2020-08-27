@@ -1,5 +1,6 @@
 # .NET
  [Installing dotnet on Linux](https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu#1804-)  
+ [NuGet - package manager for .NET](https://www.nuget.org/)  
 
  ## Resources
  [.NET on Microsoft](https://dotnet.microsoft.com/)  
