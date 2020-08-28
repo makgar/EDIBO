@@ -46,8 +46,10 @@
 - Snowman (CSS)
 - home page
 - "game"
+- check that JS clock
 
 ## .NET
-- Les Jackson - MVC REST API - Full Course (look in dotnet > README.md - Tutorials)  
-- Razor Pages (look in dotnet > README.md - Tutorials)  
-- Which is best? WebSockets or SignalR (look in dotnet > README.md - Tutorials)  
+- Tutorial: Get started with ASP.NET Core SignalR (look in dotnet > README.md - Tutorials)
+- Les Jackson - MVC REST API - Full Course (look in dotnet > README.md - Tutorials)
+- Razor Pages (look in dotnet > README.md - Tutorials)
+- Which is best? WebSockets or SignalR (look in dotnet > README.md - Tutorials)

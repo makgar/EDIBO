@@ -16,3 +16,4 @@
 [Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-3.1&tabs=visual-studio-code)  
 [Asp.Net Core WebSockets Vs SignalR. Which should you use? (Full Course) by Les Jackson (YouTube video)](https://www.youtube.com/watch?v=ycVgXe6v1VQ)  
 [Which is best? WebSockets or SignalR](https://dotnetplaybook.com/which-is-best-websockets-or-signalr/)  
+[Tutorial: Get started with ASP.NET Core SignalR](https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio)  
