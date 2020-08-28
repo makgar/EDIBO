@@ -47,5 +47,7 @@
 - home page
 - "game"
 
-## REST API
-- Les Jackson - MVC REST API - Full Course
+## .NET
+- Les Jackson - MVC REST API - Full Course (look in dotnet > README.md - Tutorials)  
+- Razor Pages (look in dotnet > README.md - Tutorials)  
+- Which is best? WebSockets or SignalR (look in dotnet > README.md - Tutorials)  
