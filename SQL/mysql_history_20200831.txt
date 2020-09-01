@@ -1,41 +1,29 @@
 _HiStOrY_V2_
 select database();
-use db24
 use db24;
 select database();
 show databases;
-CREATE TABLE MyTBL_19 (column1, varchar(5));
 CREATE TABLE MyTBL_19 (column1 varchar(5));
 show tables;
-describe MyTBL_19
-;
-show tables;
-show databases;
+describe MyTBL_19;
 use information_schema;
 show tables;
 use db24;
 show table status from db24;
-show table status from db24 where name = 'MyTBL_19'
-;
+show table status from db24 where name = 'MyTBL_19';
 INSERT INTO MyTBL_19 VALUES ('Test0');
 SELECT * from MyTBL_19;
 INSERT INTO MyTBL_19 VALUES ('Test111');
 SELECT * from MyTBL_19;
-ALTER TABLE MyTBL_19
-ADD column2 INT;
 ALTER TABLE MyTBL_19 ADD column2 INT;
 SELECT * from MyTBL_19;
-ALTER TABLE MyTBL_19 ALTER COLUMN column2 INT NOT NULL;
 ALTER TABLE MyTBL_19 MODIFY COLUMN column2 INT NOT NULL;
 SELECT * from MyTBL_19;
 DESCRIBE MyTBL_0;
 DESCRIBE MyTBL_19;
-UPDATE TABLE MyTBL_19 SET column2=125
-;
 UPDATE MyTBL_19 SET column2=125;
 select * from MyTBL_19;
 INSERT INTO MyTBL_19 VALUES ('Test3');
-INSERT INTO MyTBL_19 (column1, column2) VALUES ('Test3');
 INSERT INTO MyTBL_19 (column1, column2) VALUES ('Test3', 0);
 INSERT INTO MyTBL_19 VALUES ('Test4', 2);
 INSERT INTO MyTBL_19 (column1) VALUES ('Test5');
