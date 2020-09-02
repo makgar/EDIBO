@@ -1,0 +1,115 @@
+_HiStOrY_V2_
+show databases;
+use db24
+show tables;
+create table MyTBL_19_2 (ID int auto_increment not null, Title varchar(20) not null, primary key (ID));
+describe MyTBL_19_2;
+show tables;
+show table status where name="MyTBL_19_2";
+show create table MyTBL_19_2;
+insert into MyTBL_19_2 (Title) values ("God of War"), ("Gears of War"), ("Max Payne");
+select * from MyTBL_19_2;
+show table status where Name="MyTBL_19";
+show table status where Name="MyTBL_19_2";
+show table status where Name="MyTBL_0a";
+show create table MyTBL_0a;
+show create table MyTBL_19_2;
+select * from MyTBL_19;
+describe MyTBL_19;
+rename table MyTBL_19_2 to MyTBL_19a;
+show tables;
+alter table MyTBL_19 add foreign key (FK) references MyTBL_19a(ID);
+alter table MyTBL_19 rename column id to ID;
+select * from MyTBL_19;
+select * from MyTBL_19a;
+describe MyTBL_19;
+select * from MyTBL_19;
+delete from MyTBL_19 where ID=11;
+select * from MyTBL_19;
+describe MyTBL_19;
+describe MyTBL_19a;
+delete from MyTBL_19a where ID=3;
+delete from MyTBL_19a where ID=1;
+insert into MyTBL_19a (Title) values ("Max Payne");
+select * from MyTBL_19;
+alter table MyTBL_19 modify column column2  varchar(20);
+select * from MyTBL_19;
+describe MyTBL_19;
+alter table MyTBL_19 modify column column2  varchar(20) not null;
+describe MyTBL_19;
+alter table MyTBL_19 modify column column1  varchar(20) not null default "ABCD";
+describe MyTBL_19;
+alter table MyTBL_19 modify column ID int;
+describe MyTBL_19;
+alter table MyTBL_19 modify column ID int auto_increment;
+describe MyTBL_19;
+describe MyTBL_19a;
+ALTER TABLE MyTBL_19 modify column1 varchar(20) not null default "ABCD" after FK;
+ALTER TABLE MyTBL_19 modify column2 varchar(20) not null after column1;
+describe MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 drop foreign key MyTBL_19_ibfk_1;
+describe MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 add CONSTRAINT FK_Test foreign key (FK) references MyTBL_19a(ID);
+describe MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 drop foreign key FK_Test;
+describe MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 add CONSTRAINT FK_Test foreign key (FK) references MyTBL_19a(ID);
+describe MyTBL_19;
+show create table MyTBL_19;
+describe MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 drop index FK_Test;
+alter table MyTBL_19 drop foreign key FK_Test;
+alter table MyTBL_19 drop index FK_Test;
+describe MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 add CONSTRAINT FK_Test foreign key (FK) references MyTBL_19a(ID);
+describe MyTBL_19;
+show create table MyTBL_19;
+describe MyTBL_19;
+show create table MyTBL_19;
+select * from MyTBL_19;
+delete from MyTBL_19 where ID=10;
+select * from MyTBL_19;
+show create table MyTBL_19;
+delete from MyTBL_19 where ID=9;
+select * from MyTBL_19;
+show create table MyTBL_19;
+describe MyTBL_19;
+show create table MyTBL_19;
+select * from MyTBL_19;
+insert into MyTBL_19 (column2) values (4);
+select * from MyTBL_19;
+delete from MyTBL_19 where ID=11;
+select * from MyTBL_19;
+show create table MyTBL_19;
+alter table MyTBL_19 AUTO_INCREMENT=9;
+show create table MyTBL_19;
+insert into MyTBL_19 (column2) values (4);
+select * from MyTBL_19;
+show create table MyTBL_19;
+shot triggers;
+DELIMITER $$
+CREATE TRIGGER MyTBL_19a_guard BEFORE INSERT ON MyTBL_19a 
+FOR EACH ROW
+BEGIN
+IF NEW.Title='ABC' THEN
+SIGNAL SQLSTATE '50000' SET message_text='Alarm!';
+END IF;
+END;$$
+CREATE TRIGGER MyTBL_19a_guard BEFORE INSERT ON MyTBL_19a  FOR EACH ROW BEGIN IF NEW.Title='ABC' THEN SIGNAL SQLSTATE '50000' SET message_text='Alarm!'; END IF; END;$$
+DELIMITER ;
+show triggers;
+select * from MyTBL_19;
+insert into MyTBL_19a (Title) values ("ABC");
+CREATE TRIGGER MyTBL_19a_guard BEFORE INSERT ON MyTBL_19a  FOR EACH ROW BEGIN IF NEW.Title='ABC' THEN SIGNAL SQLSTATE '50000' SET message_text='Alarm!'; END IF; END;$$
+show create table MyTBL_19;
+show create table MyTBL_19a;
+describe MyTBL_19a;
+source ext_sql.sql
+describe MyTBL_19ext;
+exit;
