@@ -1,0 +1,9 @@
+USE db24;
+
+DELIMITER $$
+CREATE PROCEDURE MyProc_19a (IN inTitle varchar(20))
+BEGIN
+	INSERT INTO MyTBL_19a (Title) VALUES (inTitle);
+	SELECT * FROM MyTBL_19a;
+END; $$
+DELIMITER ;
