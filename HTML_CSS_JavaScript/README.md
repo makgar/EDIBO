@@ -1,4 +1,8 @@
-# HTML_CSS_JavaScript
+# Web (HTML, CSS, JavaScript, etc.)
+## For Linux
+[Installing node and npm](https://github.com/nodesource/distributions/blob/master/README.md)  
+
+## Resources
 
 [repl.it](https://repl.it/)  
 [my personal repl](https://repl.it/@makgar/)  
