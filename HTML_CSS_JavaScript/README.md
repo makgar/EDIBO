@@ -7,6 +7,8 @@
 [repl.it](https://repl.it/)  
 [my personal repl](https://repl.it/@makgar/)  
 
+[Angular setup local dev env & ws](https://angular.io/guide/setup-local)  
+[Angular Material](https://material.angular.io/)  
 HTML - hypertext markup language  
 CSS - cascading style sheets  
 [HTML Element Reference](https://www.w3schools.com/tags/default.asp)  
