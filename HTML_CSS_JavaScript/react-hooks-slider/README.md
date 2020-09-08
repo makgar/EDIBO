@@ -1,3 +1,6 @@
+# React Hooks Slider
+Taken from ][https://medium.com/better-programming/build-an-image-slider-with-react-es6-264368de68e4](https://medium.com/better-programming/build-an-image-slider-with-react-es6-264368de68e4)  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
