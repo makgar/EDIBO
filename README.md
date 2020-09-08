@@ -3,6 +3,8 @@ EDIBO projekta elektroniskā klade
 
 [teleci.lv](http://teleci.lv/) > SAKAI 2019 - place where we communicate  
 [Tutor's Repository](https://github.com/tatusmatrix/EDIBO)  
+[https://codesandbox.io/](https://codesandbox.io/)  
+[https://repl.it/](https://repl.it/)  
 
 For my own convenience [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) on GitHub  
 
