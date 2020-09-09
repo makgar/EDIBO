@@ -22,7 +22,10 @@ export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh"
 [my personal repl](https://repl.it/@makgar/)  
 
 [Angular setup local dev env & ws](https://angular.io/guide/setup-local)  
+[https://cli.angular.io/](https://cli.angular.io/)  
 [Angular Material](https://material.angular.io/)  
+[Angular 4 - Components](https://www.tutorialspoint.com/angular4/angular4_components.htm)  
+[NgModules](https://angular.io/guide/ngmodules)  
 HTML - hypertext markup language  
 CSS - cascading style sheets  
 [HTML Element Reference](https://www.w3schools.com/tags/default.asp)  
