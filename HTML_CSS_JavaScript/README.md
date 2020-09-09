@@ -1,4 +1,18 @@
 # Web (HTML, CSS, JavaScript, etc.)
+## EDIBO specific
+### Install node via nvm
+export NVM_DIR="$HOME/.nvm" && (
+git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
+cd "$NVM_DIR"
+git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
+) && \. "$NVM_DIR/nvm.sh"
+
+### Install specific version
+nvm i 12
+
+### Execute in a Terminal window to a enable it to use npm etc.
+export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh"
+
 ## For Linux
 [Installing node and npm](https://github.com/nodesource/distributions/blob/master/README.md)  
 
