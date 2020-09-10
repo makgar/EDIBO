@@ -21,6 +21,7 @@ export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh"
 [repl.it](https://repl.it/)  
 [my personal repl](https://repl.it/@makgar/)  
 
+[JS arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)  
 [Angular setup local dev env & ws](https://angular.io/guide/setup-local)  
 [https://cli.angular.io/](https://cli.angular.io/)  
 [Angular Material](https://material.angular.io/)  
