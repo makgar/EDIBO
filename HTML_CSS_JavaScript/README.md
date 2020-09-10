@@ -26,6 +26,9 @@ export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh"
 [Angular Material](https://material.angular.io/)  
 [Angular 4 - Components](https://www.tutorialspoint.com/angular4/angular4_components.htm)  
 [NgModules](https://angular.io/guide/ngmodules)  
+[webpack CopyWebpackPlugin](https://webpack.js.org/plugins/copy-webpack-plugin/)  
+[webpack configuration](https://webpack.js.org/configuration/)  
+
 HTML - hypertext markup language  
 CSS - cascading style sheets  
 [HTML Element Reference](https://www.w3schools.com/tags/default.asp)  
@@ -33,6 +36,11 @@ CSS - cascading style sheets
 [JavaScript Reserved Words](https://www.w3schools.com/js/js_reserved.asp)  
 [JS examples](https://www.w3schools.com/js/js_examples.asp)  
 [JS exercises](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_variables1)  
+
+### npm
+[npm-update](https://docs.npmjs.com/cli/update)  
+[Find the version of an installed npm package](https://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)  
+[npm check and update package if needed](https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed)  
 
 ## Plan for 14.08.2020
 - Headings
