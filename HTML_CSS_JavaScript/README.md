@@ -13,11 +13,15 @@ nvm i 12
 ### Execute in a Terminal window to a enable it to use npm etc.
 export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh"
 
+### Install Angular
+npm install -g @angular/cli
+
 ## For Linux
 [Installing node and npm](https://github.com/nodesource/distributions/blob/master/README.md)  
 
 ## Resources
 
+[stackblitz](https://stackblitz.com/)  
 [repl.it](https://repl.it/)  
 [my personal repl](https://repl.it/@makgar/)  
 
@@ -29,6 +33,7 @@ export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh"
 [NgModules](https://angular.io/guide/ngmodules)  
 [webpack CopyWebpackPlugin](https://webpack.js.org/plugins/copy-webpack-plugin/)  
 [webpack configuration](https://webpack.js.org/configuration/)  
+[Angular 8 with mysql database working example](https://therichpost.com/angular-8-with-mysql-database-working-example/)  
 
 HTML - hypertext markup language  
 CSS - cascading style sheets  
@@ -42,6 +47,7 @@ CSS - cascading style sheets
 [npm-update](https://docs.npmjs.com/cli/update)  
 [Find the version of an installed npm package](https://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)  
 [npm check and update package if needed](https://stackoverflow.com/questions/16525430/npm-check-and-update-package-if-needed)  
+[Specifying dependencies and devDependencies in a package.json file](https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file)  
 
 ## Plan for 14.08.2020
 - Headings

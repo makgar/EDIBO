@@ -30,5 +30,42 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class TableBasicExample {
     displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
-    dataSource = ELEMENT_DATA;
+    // dataSource = ELEMENT_DATA;
+    dataSource = [];
+    dataSourceHidden = [];
+    OnFlag: boolean = false;
+    buttonColor = "warn";
+    buttonIcon = "home";
+
+    // constructor(
+    //     private OnOffFlag: boolean
+    // ) {
+    //     OnOffFlag = false;
+    // }
+    
+    public handleButton1Click() {
+        // console.log('Before: ' + this.dataSource);
+        // this.dataSource == ELEMENT_DATA ? this.dataSource = [] : this.dataSource = ELEMENT_DATA;
+        // same as
+        // if (this.dataSource == ELEMENT_DATA) {
+        //     this.dataSource = [];
+        // }
+        // else {
+        //     this.dataSource = ELEMENT_DATA;
+        // }
+
+        if (this.OnFlag == false) {
+            this.dataSource = ELEMENT_DATA;
+            this.OnFlag = true;
+            this.buttonColor = "accent";
+            this.buttonIcon = "delete";
+        }
+        else {
+            this.dataSource = [];
+            this.OnFlag = false;
+            this.buttonColor = "warn";
+            this.buttonIcon = "home";
+        }
+        // console.log('After: ' + this.dataSource);
+    }
 }

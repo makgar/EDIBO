@@ -55,5 +55,6 @@ Unix / Linux - Shell Manpage Help
 *  
 
 ## Some manipulations
+[How to check if port is in use on Linux or Unix](https://www.cyberciti.biz/faq/unix-linux-check-if-port-is-in-use-command/)  
 [Find only unique named files recursively](https://superuser.com/questions/1058859/find-only-unique-named-files-recursively)  
 [Bash compare two lists find missing items](https://unix.stackexchange.com/questions/552712/bash-compare-two-lists-find-missing-items)  
