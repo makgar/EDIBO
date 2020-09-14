@@ -29,7 +29,7 @@ Additionally, consider installing **Windows Terminal**
 [Microsoft Azure](https://azure.microsoft.com/en-us/)  
 [Oracle](https://www.oracle.com/cloud/)  
 
-### 
+### Resources
 - udemy.com
 - linkedin.com
 - lynda.com
@@ -37,6 +37,8 @@ Additionally, consider installing **Windows Terminal**
   - pluralsight.com
   - cousrsera.org
   - edx.org
+
+- DZone (something Java related)
 
 ## Day 01
 ### Topics:
