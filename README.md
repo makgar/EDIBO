@@ -22,6 +22,12 @@ Take note of the following options:
 
 Additionally, consider installing **Windows Terminal**
 
+### Cloud solutions
+[Amazon Web Services](https://aws.amazon.com/)  
+[Google](https://cloud.google.com/)  
+[Microsoft Azure](https://azure.microsoft.com/en-us/)  
+[Oracle](https://www.oracle.com/cloud/)  
+
 ## Day 01
 ### Topics:
 - Terminal (hot-keys)
