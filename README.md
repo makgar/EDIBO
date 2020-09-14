@@ -25,8 +25,18 @@ Additionally, consider installing **Windows Terminal**
 ### Cloud solutions
 [Amazon Web Services](https://aws.amazon.com/)  
 [Google](https://cloud.google.com/)  
+[IBM](https://www.ibm.com/cloud)  
 [Microsoft Azure](https://azure.microsoft.com/en-us/)  
 [Oracle](https://www.oracle.com/cloud/)  
+
+### 
+- udemy.com
+- linkedin.com
+- lynda.com
+- Other
+  - pluralsight.com
+  - cousrsera.org
+  - edx.org
 
 ## Day 01
 ### Topics:
