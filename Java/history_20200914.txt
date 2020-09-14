@@ -1,0 +1,11 @@
+    1  java -version
+    2  javac -version
+    3  touch MyClass.java
+    4  ll
+    5  code . &
+    6  javac MyClass.java 
+    7  ls -l
+    8  java MyClass
+    9  java MyClass 123
+   10  java MyClass 123 Max Victor everybody
+   11  history > history_20200914.txt
