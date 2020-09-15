@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Get D3.js library -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+    <h1>Hello with D3</h1>
+    <h3>Now is ...</h3>
+    <p> .. waiting for data</p>
+<script>
+    // write your d3 code here..
+    d3.select("h1").style("color", "green");
+    d3.select("h3").text(''.concat('Value: ',d3.now()-1000));
+    var url = "https://ev4afl6obc.execute-api.eu-central-1.amazonaws.com/dev/";
+    d3.json(url, e => {d3.select("p").text(e.message)
+    });
+
+    // Arrow Functions
+    // Another way to declare a function
+    const f = () => 42
+
+    // .. instead of:
+    function g() {
+        return 42;
+    }
+
+    console.log(f());
+    console.log(g());
+
+    const f2 = (a) => 42 + a
+
+    function g2(a) {
+        return 42 + a;
+    }
+
+    console.log(f2(11));
+    console.log(g2(11));
+</script>
+</body>
+</html>
