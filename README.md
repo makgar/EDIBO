@@ -12,6 +12,7 @@ For my own convenience [Basic writing and formatting syntax](https://docs.github
 We're working with Linux (Ubuntu v18.04)  
 [Installing Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)  
 [Installing snap, if missing](https://snapcraft.io/docs/installing-snap-on-ubuntu)  
+[W5H2](https://study.com/academy/lesson/the-w5hh-principle-in-software-project-management-definition-examples.html)  
 
 ### Virtualization
 We could use software in order to have Linux installed on home PCs  
